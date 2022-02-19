@@ -34,8 +34,8 @@
 | Model prepared  | Takes input data | Time, load, location, and weather | Prediction of load in the future use case scenarios |
 | Interface| To show prediction and compare using statistical tools from the current usage | Current, voltage, Impedance, Capacitance,Reactants| Statistical values such as SD, mean and difference in the prediction and use |
 
+
 #### What components are already available?
-####### Data refers to Database
 
 ##### •	The grid usage data (ChemE)
 ##### •	General geographical data (ChemE)
@@ -48,3 +48,5 @@
 ##### •	Most Alaska power generator data
 ##### •	The main function for machine learning (ChemE)
 ##### •	Model for and from the data (EE)
+
+####### Data refers to Database
