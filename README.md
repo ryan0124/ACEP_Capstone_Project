@@ -35,7 +35,7 @@
 | Interface| To show prediction and compare using statistical tools from the current usage | Current, voltage, Impedance, Capacitance,Reactants| Statistical values such as SD, mean and difference in the prediction and use |
 
 #### What components are already available?  
-#######  *Data refers to Database
+####### *Data refers to Database
 
 ##### •	The grid usage data (ChemE)
 ##### •	General geographical data (ChemE)
