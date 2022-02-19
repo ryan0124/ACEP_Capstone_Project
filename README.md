@@ -50,3 +50,6 @@
 ##### •	Model for and from the data (EE)
 
 ###### *Data refers to Database
+
+### Inter-Diagram:
+![Inter-Diagram](Slide1.jpeg)
