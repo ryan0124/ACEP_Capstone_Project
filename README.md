@@ -33,3 +33,18 @@
 |------|--------------|-------|--------|
 | Model prepared  | Takes input data | Time, load, location, and weather | Prediction of load in the future use case scenarios |
 | Interface| To show prediction and compare using statistical tools from the current usage | Current, voltage, Impedance, Capacitance,Reactants| Statistical values such as SD, mean and difference in the prediction and use |
+
+#### What components are already available?  
+#######  *Data refers to Database
+
+##### •	The grid usage data (ChemE)
+##### •	General geographical data (ChemE)
+##### •	Python function for reading online data (ChemE)
+##### •	Minor Alaska power plant data
+##### •	Model is being developed (EE)
+
+#### What are the sub-components needed to implement those components that aren't already available?
+##### •	Modelling software such as PSSE (EE)
+##### •	Most Alaska power generator data
+##### •	The main function for machine learning (ChemE)
+##### •	Model for and from the data (EE)
