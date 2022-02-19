@@ -49,4 +49,4 @@
 ##### •	The main function for machine learning (ChemE)
 ##### •	Model for and from the data (EE)
 
-####### Data refers to Database
+*Data refers to Database
