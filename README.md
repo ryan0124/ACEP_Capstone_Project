@@ -30,7 +30,7 @@
 ### Component Specification:
 
 | Name | What it Does | Input | Output |
-|-----|----------|--------------|
+|------|--------------|-------|--------|
 | Model prepared  | Takes input data | Time, load, location, and weather | Prediction of load in the future use case scenarios |
 | Interface| To show prediction and compare using statistical tools from the current usage | Current, voltage, Impedance, Capacitance,Reactants
 | Statistical values such as SD, mean and difference in the
