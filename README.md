@@ -1,3 +1,7 @@
 # ACEP_Capstone_Project
-# This is test
-# halo
+
+## Use Cases and Component Specification - ACEP- group
+
+###Project description from capstone page:
+
+![Capstone description](acep-des.jpg)
