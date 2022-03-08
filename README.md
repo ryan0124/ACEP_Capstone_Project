@@ -2,9 +2,9 @@
 
 ## Use Cases and Component Specification - ACEP- group
 
-### Project description from capstone page:
+### Project description:
 
-![Capstone description](acep-des.jpg)
+This project is about
 ###### Source: University of Washington Engineerging Capstone - https://www.engr.washington.edu/capstone/
 
 ### User Stories:
