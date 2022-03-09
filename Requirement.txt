@@ -1,0 +1,11 @@
+from google.colab import drive
+!pip install esy-osmfilter
+!pip install geopandas
+import configparser, contextlib
+import os, sys
+import geopandas as gpd
+import pandas as pd
+from esy.osmfilter import osm_colors as CC
+from esy.osmfilter import run_filter 
+from esy.osmfilter import Node, Way, Relation
+from esy.osmfilter import export_geojson
