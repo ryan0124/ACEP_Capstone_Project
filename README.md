@@ -8,6 +8,9 @@ This project is about developing publicly accessible Alaska-based power systemmo
 
 ###### Source: University of Washington Engineerging Capstone - https://www.engr.washington.edu/capstone/
 
+### Software Dependencies
+* Python3
+
 ### User Stories:
 
 #### Tom is a data scientist works in one of the energy generator/ plant companies. He wants to know how much electricity needs to be generated for a summer festival. Also, what portion should be distributed to the festival area.  Tom is proficient in understanding electrical grids and the usage of electricity.
