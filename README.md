@@ -10,6 +10,8 @@ This project is about developing publicly accessible Alaska-based power systemmo
 
 ### Software Dependencies
 * Python3
+* Tableau
+* OpenStreetMap
 *  For python packages see requirements.txt
 
 ### OpenStreetMap
