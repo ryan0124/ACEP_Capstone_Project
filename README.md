@@ -73,7 +73,7 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 
 ### Current process:
 #### Electricity Monthly Usage:
-![Commercial](../master/Result/Commercial.png)
+![MonthlyUsage](../master/Result/MonthlyUsage.png)
 #### Transmission Lines and Location:
 ![LocationLines](../master/Result/LocationLines.png)
 
