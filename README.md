@@ -1,3 +1,4 @@
+[![Python 3.6](https://img.shields.io/badge/python-3.4+-orange.svg)](https://www.python.org/download/releases/3.4.0/)
 # ACEP_Capstone_Project
 
 ## Use Cases and Component Specification - ACEP- group
@@ -32,16 +33,18 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 ### Describing Use Case:
 
 #### Info provides by user
-#### •	Time, Location
+#### •	Time, Location (Both in float or int type)
 #### Systems response
 #### •	Grid graph on map with the expected electricity use, error
+#### Output will be in csv file and python plot
 
 ### Authenticate User Use Case:
-#### User --> Input “time and location”
-#### Program --> [Readable] Output plot of the electricity grid
-####             [Not Readable] Report error
-#### User --> Ask for more data or raw data
-#### Program --> [Readable] Output data file  
+#### * Open python and input the py file which contains model and ML coding
+#### User --> Input time such as (dd-mm-yyyy) and location (Longitude and latitude)
+#### Program --> [Readable] Output plot of the electricity grid (Python's Plot)
+####             [Not Readable] Report error (Expect error)
+#### User --> Ask for more data or raw data (Import y or n for data detail)
+#### Program --> [Readable] Output data file  (Output CSV file with location and usage)
 ####	           [Not Readable/ Sensitive data] Report error
 
 ### Component Specification:
@@ -68,5 +71,13 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 
 ###### *Data refers to Database
 
-### Inter-Diagram:
-![Inter-Diagram](Slide1.jpeg)
+### Current process:
+#### Electricity Monthly Usage:
+![Commercial](../Result/Commercial.png)
+#### Transmission Lines and Location:
+![LocationLines](../Result/LocationLines.png)
+
+
+### Future Steps
+#### All the electricity usage and location data has been collected, modify, and visualized.
+#### Parallel process on machine learning model development using Python while Electrical Engineering subgroup modeling electricity Grid.
