@@ -73,11 +73,11 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 
 ### Current process:
 #### Electricity Monthly Usage:
-![MonthlyUsage](../master/Result/MonthlyUsage.png)
+![MonthlyUsage](Result/MonthlyUsage.png)
 #### Transmission Lines and Location:
-![LocationLines](../master/Result/LocationLines.png)
+![LocationLines](Result/LocationLines.png)
 
 
 ### Plan for the Spring Quarter
-#### Work on the electricity generation aspect. We are trying to develop a ML model to predict electricity generated in a certain region using publically available energy generation data. The user can input the month and the pincode and the model will output maximum power of that area plant. 
-### Here is the Ghannt chart of our plan. 
+#### Work on the electricity generation aspect. We are trying to develop a ML model to predict electricity generated in a certain region using publically available energy generation data. The user can input the month and the pincode and the model will output maximum power of that area plant.
+### Here is the Ghannt chart of our plan.
