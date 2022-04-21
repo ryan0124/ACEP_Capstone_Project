@@ -79,5 +79,9 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 
 
 ### Plan for the Spring Quarter
-#### Work on the electricity generation aspect. We are trying to develop a ML model to predict electricity generated in a certain region using publicly available energy generation data. The user can input the month and the pin-code and the model will output maximum power of that area plant.
+
+#### Work on the electricity generation aspect.
+#### First, we will assist EE group to build electricity grid model. We use k-mean method to group the buildings to become "feeders" based on their types. Next, same method will apply to those group to define the necessary electricity power.
+#### Second, we will be trying to develop a ML model to predict electricity generated in a certain region using publicly available energy generation data. This model's input will include the type of generator such as natural gas or coal, and the expected power generation. The output will result at a ma power need which will be send in to the developed PSSE model to define the generation, distribution and transmission requirement.
+#### To keep track on process below is the Ghent chart for the project. s
 ![Ghent Chart link](../master/Capstone_Gnatt.xlsx)
