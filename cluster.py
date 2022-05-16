@@ -56,108 +56,8 @@ class Hierarchical_Clustering:
     """                      Hierarchical Clustering Functions                       """
     """                                                                              """
     """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    class Hierarchical_Clustering:
-    def __init__(self, ipt_data, max_size):
-        self.input_file_name = ipt_data
-        self.dataset = None
-        self.dataset_size = 0
-        self.dimension = 0
-        self.cluster_max_size = max_size
-        self.heap = []
-        self.clusters = []
 
-
-    def initialize(self):
-        """
-        Initialize and check parameters
-        """
-        # check file exist and if it's a file or dir
-        # if not os.path.isfile(self.input_file_name):
-        #     self.quit("Input file doesn't exist or it's not a file")
-
-        self.dataset, self.clusters = self.load_data(self.input_file_name)
-        self.dataset_size = len(self.dataset)
-
-        if self.dataset_size == 0:
-            self.quit("Input file doesn't include any data")
-
-        self.dimension = len(self.dataset[0]["data"])
-
-        if self.dimension == 0:
-            self.quit("dimension for dataset cannot be zero")
-
-    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    """                      Hierarchical Clustering Functions                       """
-    """                                                                              """
-    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-class Hierarchical_Clustering:
-    def __init__(self, ipt_data, max_size):
-        self.input_file_name = ipt_data
-        self.dataset = None
-        self.dataset_size = 0
-        self.dimension = 0
-        self.cluster_max_size = max_size
-        self.heap = []
-        self.clusters = []
-
-
-    def initialize(self):
-        """
-        Initialize and check parameters
-        """
-        # check file exist and if it's a file or dir
-        # if not os.path.isfile(self.input_file_name):
-        #     self.quit("Input file doesn't exist or it's not a file")
-
-        self.dataset, self.clusters = self.load_data(self.input_file_name)
-        self.dataset_size = len(self.dataset)
-
-        if self.dataset_size == 0:
-            self.quit("Input file doesn't include any data")
-
-        self.dimension = len(self.dataset[0]["data"])
-
-        if self.dimension == 0:
-            self.quit("dimension for dataset cannot be zero")
-
-    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    """                      Hierarchical Clustering Functions                       """
-    """                                                                              """
-    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-class Hierarchical_Clustering:
-    def __init__(self, ipt_data, max_size):
-        self.input_file_name = ipt_data
-        self.dataset = None
-        self.dataset_size = 0
-        self.dimension = 0
-        self.cluster_max_size = max_size
-        self.heap = []
-        self.clusters = []
-
-
-    def initialize(self):
-        """
-        Initialize and check parameters
-        """
-        # check file exist and if it's a file or dir
-        # if not os.path.isfile(self.input_file_name):
-        #     self.quit("Input file doesn't exist or it's not a file")
-
-        self.dataset, self.clusters = self.load_data(self.input_file_name)
-        self.dataset_size = len(self.dataset)
-
-        if self.dataset_size == 0:
-            self.quit("Input file doesn't include any data")
-
-        self.dimension = len(self.dataset[0]["data"])
-
-        if self.dimension == 0:
-            self.quit("dimension for dataset cannot be zero")
-
-    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    """                      Hierarchical Clustering Functions                       """
-    """                                                                              """
-    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""    def euclidean_distance(self, data_point_one, data_point_two):
+    def euclidean_distance(self, data_point_one, data_point_two):
         """
         euclidean distance: https://en.wikipedia.org/wiki/Euclidean_distance
         assume that two data points have same dimension
@@ -186,6 +86,7 @@ class Hierarchical_Clustering:
         heapq.heapify(distance_list)
         self.heap = distance_list
         return self.heap
+
     def compute_centroid_two_clusters(self, current_clusters, data_points_index):
         size = len(data_points_index)
         dim = self.dimension
@@ -209,6 +110,7 @@ class Hierarchical_Clustering:
         for i in range(dim):
             centroid[i] /= size
         return centroid
+
     def hierarchical_clustering(self):
         """
         Main Process for hierarchical clustering
@@ -246,6 +148,7 @@ class Hierarchical_Clustering:
             self.add_heap_entry(heap, new_cluster, current_clusters)
             current_clusters[str(new_cluster_elements)] = new_cluster
         return current_clusters
+
     def valid_heap_node(self, heap_node, old_clusters):
         pair_dist = heap_node[0]
         pair_data = heap_node[1]
@@ -305,6 +208,7 @@ class Hierarchical_Clustering:
         use for test only
         """
         return self.dataset
+
     def display(self, current_clusters, dataset):
         colors = plt.cm.rainbow(np.linspace(0, 1, len(current_clusters)))
         plt.figure(figsize=(15,15))
@@ -314,7 +218,6 @@ class Hierarchical_Clustering:
             plt.scatter(dataset[elems][:, 0], dataset[elems][:, 1], color=colors[ind], marker='x', s=10)
         plt.legend()
         plt.show()
-#Plotting the Clusters
 def display(current_clusters, dataset):
         colors = plt.cm.rainbow(np.linspace(0, 1, len(current_clusters)))
         plt.figure(figsize=(10,15))
@@ -340,6 +243,7 @@ def MainMethod(X_gvea,size):
     hc.initialize()
     current_clusters = hc.hierarchical_clustering()
     return current_clusters
+
 size_list=[1513,1513,8700,8700]
 for ind in range(len(df_list)):
   df=df_list[ind]
