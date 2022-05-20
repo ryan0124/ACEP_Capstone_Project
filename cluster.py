@@ -10,18 +10,20 @@ import matplotlib.pyplot as plt
 
 ##import industrial data for KNN clustering
 
-com_cent=pd.read_csv('com_central.csv', low_memory=False)
-com_gvea=pd.read_csv('com_GVEA.csv', low_memory=False)
+cdf_final_string=["com_central_1","com_central_2","com_central_3","com_central_4"]
 
-res_cent =pd.read_csv('res_central.csv', low_memory=False)
-res_gvea =pd.read_csv('res_gvea.csv', low_memory=False)
+com_central_1=pd.read_csv(path+'Commercial_divided/Divided/com_central_1.csv', low_memory=False)
+com_central_2=pd.read_csv(path+'Commercial_divided/Divided/com_central_2.csv', low_memory=False)
+com_central_3=pd.read_csv(path+'Commercial_divided/Divided/com_central_3.csv', low_memory=False)
+com_central_4=pd.read_csv(path+'Commercial_divided/Divided/com_central_4.csv', low_memory=False)
 
-df_list=[com_cent,com_gvea,res_cent,res_gvea]
-df_string=["com_cent","com_gvea","res_cent","res_gvea"]
-for ind in range(len(df_list)):
-  df=df_list[ind]
-  print(df_string[ind],len(df_list[ind]))
 
+df_final_list=[com_central_1,com_central_2,com_central_3,com_central_4]
+final_size_list=[1513,1513,1513,1513]
+
+for ind in range(len(df_final_list)):
+  df=df_final_list[ind]
+  print(df_final_string[ind],len(df))
 class Hierarchical_Clustering:
     def __init__(self, ipt_data, max_size):
         self.input_file_name = ipt_data
@@ -218,6 +220,7 @@ class Hierarchical_Clustering:
             plt.scatter(dataset[elems][:, 0], dataset[elems][:, 1], color=colors[ind], marker='x', s=10)
         plt.legend()
         plt.show()
+#Plotting the Clusters
 def display(current_clusters, dataset):
         colors = plt.cm.rainbow(np.linspace(0, 1, len(current_clusters)))
         plt.figure(figsize=(10,15))
@@ -230,26 +233,24 @@ def display(current_clusters, dataset):
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """                               Main Method                                    """
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-def MainMethod(X_gvea,size):
+def MainMethod(X_input,size):
     """
     inputs:
     - ipt_data: a text file name for the input data
     - imax_size  Max size of cluster
     """
-    ipt_data = X_gvea      # input data, e.g. iris.dat
+    ipt_data = X_input      # input data, e.g. iris.dat
     max_size = size       # Max size of cluster
 
     hc = Hierarchical_Clustering(ipt_data, max_size)
     hc.initialize()
     current_clusters = hc.hierarchical_clustering()
     return current_clusters
-
-size_list=[1513,1513,8700,8700]
-for ind in range(len(df_list)):
-  df=df_list[ind]
-  size=size_list[ind]
+for ind in range(len(df_final_list)):
+  df=df_final_list[ind]
+  size=final_size_list[ind]
   X = df.values[:,:]
-  print('Working on '+df_string[ind])
+  print('Working on '+df_final_string[ind])
   current_clusters=MainMethod(X,size)
   outputText = ""
   for centr, valDict in current_clusters.items():
@@ -257,4 +258,3 @@ for ind in range(len(df_list)):
     #print('Size:', len(valDict['elements']),'Centroid:', valDict['centroid'])
   with open('outpue'+df_string[ind]+'_output.txt', 'w') as f:
     f.write(outputText)
-print('!!!!Job finished!!!! Check output folder for TXT files')
