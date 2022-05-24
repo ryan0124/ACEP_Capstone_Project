@@ -85,3 +85,7 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 #### Second, we will be trying to develop a ML model to predict electricity generated in a certain region using publicly available energy generation data. This model's input will include the type of generator such as natural gas or coal, and the expected power generation. The output will result at a ma power need which will be send in to the developed PSSE model to define the generation, distribution and transmission requirement.
 #### To keep track on process below is the Ghent chart for the project.
 ![Ghannt Chart link](../master/Capstone_Gnatt.xlsx)
+
+We split Alaska Railbelt area into two part, GVEA and Central, then extract the three types of buildings data from those two area and apply hierarchical clustering to get the feeders location from those two regions. After that, using hierarchical clustering again on the feeders we got to get the buses location.
+Base on the data we obtain, EE team can build a synthetic power system using PSSE.
+
