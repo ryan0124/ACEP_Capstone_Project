@@ -14,6 +14,8 @@ This project is about developing publicly accessible Alaska-based power systemmo
 * Tableau
 * OpenStreetMap
 *  For python packages see requirements.txt
+*  Colab pro
+*  Hyak NextGen Supercomputer
 
 ### OpenStreetMap
 
