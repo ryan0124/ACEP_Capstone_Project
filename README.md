@@ -21,11 +21,15 @@ This project is about developing publicly accessible Alaska-based power systemmo
 
 OpenStreetMap (OSM) is a collaborative project to create a free editable geographic database of the world. It contains almost everything you can think of, including gas pipelines, power lines and power plants etc.
 
-#### Map features
+#### Map Features
 OpenStreetMap represents physical features on the ground (e.g., roads or buildings) using tags attached to its basic data structures (its nodes, ways, and     relations). Each tag describes a geographic attribute of the feature being shown by that specific node, way or relation. (For more features, check     https://wiki.openstreetmap.org/wiki/Map_features)
 
 #### Why OSM
 First of all, the flexibility. OSM is ready for any styling you need to apply for your project. The second reason is that OpenStreetMap is and always will be available for free to users, developers and companies. It even allows you to download all of the map offline if you need to and render it in your own language
+
+### Hierarchical Clustering
+
+### Machine Learning Models
 
 ### User Stories:
 
