@@ -30,6 +30,7 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 ### Hierarchical Clustering
 
 ### Machine Learning Models
+In this project, we use multi-output regression and two linear regressions to get the non-real data for EE team.
 
 ### User Stories:
 
@@ -92,6 +93,7 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 #### To keep track on process below is the Ghent chart for the project.
 ![Ghannt Chart link](../master/Capstone_Gnatt.xlsx)
 
-We split Alaska Railbelt area into two part, GVEA and Central, then extract the three types of buildings data from those two area and apply hierarchical clustering to get the feeders location from those two regions. After that, using hierarchical clustering again on the feeders we got to get the buses location.
+First, we download the data of every buildings we need in Alaska from OSM.
+We split Alaska Railbelt area into two part, GVEA and Central, then extract the three types of buildings data from those two area and apply hierarchical clustering to get the feeders location from those two regions. After that, using hierarchical clustering again on the feeders then we can get the buses location.
 Base on the data we obtain, EE team can build a synthetic power system using PSSE.
 
