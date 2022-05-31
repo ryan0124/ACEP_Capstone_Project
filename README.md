@@ -1,4 +1,4 @@
-[![Python 3.6](https://img.shields.io/badge/python-3.4+-orange.svg)](https://www.python.org/download/releases/3.4.0/)
+[![Python 3.9](https://img.shields.io/badge/python-3.4+-orange.svg)](https://www.python.org/download/releases/3.9.0/)
 # ACEP_Capstone_Project
 
 ## Use Cases and Component Specification - ACEP- group
