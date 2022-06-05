@@ -30,7 +30,7 @@ First of all, the flexibility. OSM is ready for any styling you need to apply fo
 ### Hierarchical Clustering
 
 ### Machine Learning Models
-In this project, we use multi-output regression and two linear regressions to get the non-real data for EE team.
+We have one independent variable(X) and two dependents variables(Y1, Y2). In this case we try two methods. The first one is creating two linear regression models for X, Y1 and X, Y2. The second method is using multi-output regression. The accuracy from these two methods shows that linear regression method is more accurate than multi-output regression
 
 ### User Stories:
 
