@@ -1,8 +1,6 @@
 [![Python 3.9](https://img.shields.io/badge/python-3.4+-orange.svg)](https://www.python.org/download/releases/3.9.0/)
 # Alaska Center Energy and Power Capstone: Synthetic Electrical Grid and Data Model
 
-## Use Cases and Component Specification - ACEP- group
-
 ### Project description:
 
 This project is about developing publicly accessible Alaska-based power systemmodels, developed in Siemens PSS/e, PowerWorld, OpenDSS, and/or Milsoft Windmil, and associated load and generation data representing seasonal and futruistic scenarios.
