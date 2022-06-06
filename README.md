@@ -34,7 +34,7 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 
 ### User Stories:
 
-#### Tom is a data scientist works in one of the energy generator/ plant companies. He wants to know how much electricity needs to be generated for a summer festival. Also, what portion should be distributed to the festival area.  Tom is proficient in understanding electrical grids and the usage of electricity.
+#### Tom is a data science student in college and he is proficient in understanding electrical grids and the usage of electricity. He wants to know where he can find and download different types of data of buildings for his synthetic power system models. He can use our script to download different types of buildings for OSM Also, what portion should be distributed to the festival area.  
 #### Becky is a student researcher who is working on developing new grids for electricity transmission/distribution. She wants to know the usage patterns in Alaska. She wants an easy-to-understand interface that is publicly accessible.
 
 ### Describing Use Case:
