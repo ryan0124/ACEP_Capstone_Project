@@ -9,3 +9,6 @@ from esy.osmfilter import osm_colors as CC
 from esy.osmfilter import run_filter 
 from esy.osmfilter import Node, Way, Relation
 from esy.osmfilter import export_geojson
+import heapq
+import itertools
+import matplotlib.pyplot as plt
