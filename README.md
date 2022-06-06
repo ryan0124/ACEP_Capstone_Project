@@ -33,6 +33,8 @@ We employed a hierarchical agglomerative clustering algorithm implementation. Th
 Algorithm should stop the clustering process when all data points are placed in a single cluster or the cluster size condition is met. Algorithm also keeps track of the merging process: for each merging step, remembers which clusters are merged to produce which new cluster. Such information is similar to a dendrogram (e.g., shown below), except that dendrogram also remembers the distance of two clusters when they are merged. With the above information, this algorithm can then allow users to specify a desired number of clusters k or the cluster size, and returns the clusters and their centroids based on the clustering result. 
 
 ![image](https://user-images.githubusercontent.com/19913928/172250114-c117211f-c975-4557-af56-9571916a6a6a.png)
+
+
 The main code for the algorithm was cloned from https://github.com/ZwEin27/Hierarchical-Clustering and changed as per our requirements. 
 
 ### Machine Learning Models
