@@ -28,6 +28,12 @@ OpenStreetMap represents physical features on the ground (e.g., roads or buildin
 First of all, the flexibility. OSM is ready for any styling you need to apply for your project. The second reason is that OpenStreetMap is and always will be available for free to users, developers and companies. It even allows you to download all of the map offline if you need to and render it in your own language
 
 ### Hierarchical Clustering
+We employed a hierarchical agglomerative clustering algorithm implementation. The algorithm starts by placing each data point in a cluster by itself and then repeatedly merges two clusters until some stopping condition is met. The stopping condition in our case was the cluster size. 
+#### Clustering process
+Algorithm should stop the clustering process when all data points are placed in a single cluster or the cluster size condition is met. Algorithm also keeps track of the merging process: for each merging step, remembers which clusters are merged to produce which new cluster. Such information is similar to a dendrogram (e.g., shown below), except that dendrogram also remembers the distance of two clusters when they are merged. With the above information, this algorithm can then allow users to specify a desired number of clusters k or the cluster size, and returns the clusters and their centroids based on the clustering result. 
+
+![image](https://user-images.githubusercontent.com/19913928/172250114-c117211f-c975-4557-af56-9571916a6a6a.png)
+
 
 ### Machine Learning Models
 We have one independent variable(X) and two dependents variables(Y1, Y2). In this case we try two methods. The first one is creating two linear regression models for X, Y1 and X, Y2. The second method is using multi-output regression. The accuracy from these two methods shows that linear regression method is more accurate than multi-output regression
