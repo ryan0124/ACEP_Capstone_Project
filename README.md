@@ -101,26 +101,4 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 | Interface| To show prediction and compare using statistical tools from the current usage | Current, voltage, Impedance, Capacitance,Reactants| Statistical values such as SD, mean and difference in the prediction and use |
 
 
-#### What components are already available?
-
-##### •	The grid usage data (ChemE)
-##### •	General geographical data (ChemE)
-##### •	Python function for reading online data (ChemE)
-##### •	Minor Alaska power plant data
-##### •	Model is being developed (EE)
-
-#### What are the sub-components needed to implement those components that aren't already available?
-##### •	Modelling software such as PSSE (EE)
-##### •	Most Alaska power generator data
-##### •	The main function for machine learning (ChemE)
-##### •	Model for and from the data (EE)
-
-###### *Data refers to Database
-
-### Current process:
-#### Electricity Monthly Usage:
-![MonthlyUsage](Result/MonthlyUsage.png)
-#### Transmission Lines and Location:
-![LocationLines](Result/LocationLines.png)
-
 -----
