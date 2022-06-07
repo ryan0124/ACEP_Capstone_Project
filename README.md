@@ -18,7 +18,7 @@ This project is about developing publicly accessible Alaska-based power systemmo
 -----
 
 ### Organization
-'''
+```
 ├── Capstone_Gnatt.xlsx
 ├── Data
 │   ├── Building Data from OSM
@@ -44,7 +44,7 @@ This project is about developing publicly accessible Alaska-based power systemmo
 ├── README.md
 ├── Requirement.txt
 └── acep_poster.pptx
-'''
+```
 -----
 ### OpenStreetMap
 
