@@ -2,11 +2,12 @@
 # Alaska Center Energy and Power Capstone: Synthetic Electrical Grid and Data Model
 ![image](https://user-images.githubusercontent.com/19913928/172478159-d85c14f7-3cda-490b-bc8d-3698920945e2.png)
 
+-----
 ### Project description:
 This project is about developing publicly accessible Alaska-based power systemmodels, developed in Siemens PSS/e, PowerWorld, OpenDSS, and/or Milsoft Windmil, and associated load and generation data representing seasonal and futruistic scenarios.
-
+-----
 ###### Source: University of Washington Engineerging Capstone - https://www.engr.washington.edu/capstone/
-
+-----
 ### Software Dependencies
 * Python3
 * Tableau
@@ -14,6 +15,7 @@ This project is about developing publicly accessible Alaska-based power systemmo
 *  For python packages see requirements.txt
 *  Colab pro
 *  Hyak NextGen Supercomputer
+-----
 
 ### Organization
 ├── Capstone_Gnatt.xlsx
@@ -66,6 +68,7 @@ This project is about developing publicly accessible Alaska-based power systemmo
 
 └── acep_poster.pptx
 
+-----
 ### OpenStreetMap
 
 OpenStreetMap (OSM) is a collaborative project to create a free editable geographic database of the world. It contains almost everything you can think of, including gas pipelines, power lines and power plants etc.
@@ -75,6 +78,7 @@ OpenStreetMap represents physical features on the ground (e.g., roads or buildin
 
 #### Why OSM
 First of all, the flexibility. OSM is ready for any styling you need to apply for your project. The second reason is that OpenStreetMap is and always will be available for free to users, developers and companies. It even allows you to download all of the map offline if you need to and render it in your own language
+-----
 
 ### Hierarchical Clustering
 We employed a hierarchical agglomerative clustering algorithm implementation. The algorithm starts by placing each data point in a cluster by itself and then repeatedly merges two clusters until some stopping condition is met. The stopping condition in our case was the cluster size. 
@@ -86,9 +90,10 @@ Algorithm should stop the clustering process when all data points are placed in 
 
 The main code for the algorithm was cloned from https://github.com/ZwEin27/Hierarchical-Clustering and changed as per our requirements. 
 
+-----
 ### Machine Learning Models
 We have one independent variable(X) and two dependents variables(Y1, Y2). In this case we try two methods. The first one is creating two linear regression models for X, Y1 and X, Y2. The second method is using multi-output regression. The accuracy from these two methods shows that linear regression method is more accurate than multi-output regression
-
+-----
 ### User Stories:
 
 #### Tom is a data science student in college and he is proficient in understanding electrical grids and the usage of electricity. He wants to know where he can find and download different types of buildings data for his synthetic power system models. He can use our script to download different types of buildings for OSM. After downloading the data he needs, he can use our clustering to cluster buildings in certain area and then apply our ML models to get QMax,QMin that he wants.  
@@ -141,16 +146,4 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 #### Transmission Lines and Location:
 ![LocationLines](Result/LocationLines.png)
 
-
-### Plan for the Spring Quarter
-
-#### Work on the electricity generation aspect.
-#### First, we will assist EE group to build electricity grid model. We use k-mean method to group the buildings to become "feeders" based on their types. Next, same method will apply to those group to define the necessary electricity power.
-#### Second, we will be trying to develop a ML model to predict electricity generated in a certain region using publicly available energy generation data. This model's input will include the type of generator such as natural gas or coal, and the expected power generation. The output will result at a ma power need which will be send in to the developed PSSE model to define the generation, distribution and transmission requirement.
-#### To keep track on process below is the Ghent chart for the project.
-![Ghannt Chart link](../master/Capstone_Gnatt.xlsx)
-
-First, we download the data of every buildings we need in Alaska from OSM.
-We split Alaska Railbelt area into two part, GVEA and Central, then extract the three types of buildings data from those two area and apply hierarchical clustering to get the feeders location from those two regions. After that, using hierarchical clustering again on the feeders then we can get the buses location.
-Base on the data we obtain, EE team can build a synthetic power system using PSSE.
-
+-----
