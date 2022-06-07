@@ -73,7 +73,9 @@ The main code for the algorithm was cloned from https://github.com/ZwEin27/Hiera
 -----
 ### Machine Learning Models
 We have one independent variable(X) and two dependents variables(Y1, Y2). In this case we try two methods. The first one is creating two linear regression models for X, Y1 and X, Y2. The second method is using multi-output regression. The accuracy from these two methods shows that linear regression method is more accurate than multi-output regression
+
 -----
+
 ### User Stories:
 
 #### Tom is a data science student in college and he is proficient in understanding electrical grids and the usage of electricity. He wants to know where he can find and download different types of buildings data for his synthetic power system models. He can use our script to download different types of buildings for OSM. After downloading the data he needs, he can use our clustering to cluster buildings in certain area and then apply our ML models to get QMax,QMin that he wants.  
