@@ -18,29 +18,53 @@ This project is about developing publicly accessible Alaska-based power systemmo
 ### Organization
 .
 ├── Capstone_Gnatt.xlsx
+
 ├── Data
+
 │   ├── Building Data from OSM
+
 │   │   ├── com_central.csv
+
 │   │   ├── com_geva.csv
+
 │   │   ├── ins_central.csv
+
 │   │   ├── ins_gvea.csv
+
 │   │   ├── res_central.csv
+
 │   │   └── res_gvea.csv
+
 │   └── Feeders Data
+
 │       ├── Buses_pmax.csv
+
 │       └── Feeders.csv
+
 ├── LICENSE.md
+
 ├── Packages
+
 │   ├── Clustering
+
 │   │   ├── Clustering.ipynb
+
 │   │   └── SecondClustering_PmaxCalculation.ipynb
+
 │   ├── Get_Data_From_OSM
+
 │   │   └── Get_open_street_map_lines.ipynb
+
 │   └── Linear Regression and Multi-output Models
+
 │       ├── LinearRegression.ipynb
+
 │       └── Multi-output.ipynb
+
 ├── README.md
+
 ├── Requirement.txt
+
 └── acep_poster.pptx
 
 ### OpenStreetMap
