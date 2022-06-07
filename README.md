@@ -3,6 +3,8 @@
 
 ### Project description:
 
+![image](https://user-images.githubusercontent.com/19913928/172478159-d85c14f7-3cda-490b-bc8d-3698920945e2.png)
+
 This project is about developing publicly accessible Alaska-based power systemmodels, developed in Siemens PSS/e, PowerWorld, OpenDSS, and/or Milsoft Windmil, and associated load and generation data representing seasonal and futruistic scenarios.
 
 ###### Source: University of Washington Engineerging Capstone - https://www.engr.washington.edu/capstone/
