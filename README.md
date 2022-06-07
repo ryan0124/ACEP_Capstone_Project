@@ -83,25 +83,19 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 ### Describing Use Case:
 
 #### Info provides by user
-#### •	Data of different types of buildings and power grid system
+* Data of different types of buildings and power grid system
+* Energy reuirements per building type
 #### Systems response
-#### •	Grid graph on map with the expected electricity use, feeders, buses
-#### Output will be in csv file and python plot
+* Expected electricity use, feeders, buses
+* *Output will be in csv file and python plot*
 
-### Authenticate User Use Case:
-#### * Open python and input the py file which contains model and ML coding
-#### User --> Download the building types you want to download and then use it as inputs to get clusters feeders and buses
-#### Program --> [Readable] Output plot of the electricity grid (Python's Plot)
-####             [Not Readable] Report error (Expect error)
-#### User --> Ask for more data or raw data (Import y or n for data detail)
-#### Program --> [Readable] Output data file  (Output CSV file with location and usage)
-####	           [Not Readable/ Sensitive data] Report error
-
+-----
 ### ML Model Accuracies
 Linear regression model 1 R2_Score: 95.5%
 Linear regression model 1 R2_Score: 89.4%
 Multi-Ouput Model R2_Score: 91.9% 
 
+-----
 ### Authors
 
 *Department of Chemical Engineering, University of Washington*
@@ -112,5 +106,3 @@ Multi-Ouput Model R2_Score: 91.9%
 *Department of Electrical Engineering, University of Washington*
 * Boyuan Xie 
 * Laura Rackley
-
------
