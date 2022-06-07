@@ -40,20 +40,20 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 
 ### User Stories:
 
-#### Tom is a data science student in college and he is proficient in understanding electrical grids and the usage of electricity. He wants to know where he can find and download different types of data of buildings for his synthetic power system models. He can use our script to download different types of buildings for OSM Also, what portion should be distributed to the festival area.  
+#### Tom is a data science student in college and he is proficient in understanding electrical grids and the usage of electricity. He wants to know where he can find and download different types of buildings data for his synthetic power system models. He can use our script to download different types of buildings for OSM. After downloading the data he needs, he can use our clustering to cluster buildings in certain area and then apply our ML models to get QMax,QMin that he wants.  
 #### Becky is a student researcher who is working on developing new grids for electricity transmission/distribution. She wants to know the usage patterns in Alaska. She wants an easy-to-understand interface that is publicly accessible.
 
 ### Describing Use Case:
 
 #### Info provides by user
-#### •	Time, Location (Both in float or int type)
+#### •	Data of different types of buildings and power grid system
 #### Systems response
-#### •	Grid graph on map with the expected electricity use, error
+#### •	Grid graph on map with the expected electricity use, feeders, buses
 #### Output will be in csv file and python plot
 
 ### Authenticate User Use Case:
 #### * Open python and input the py file which contains model and ML coding
-#### User --> Input time such as (dd-mm-yyyy) and location (Longitude and latitude)
+#### User --> Download the building types you want to download and then use it as inputs to get clusters feeders and buses
 #### Program --> [Readable] Output plot of the electricity grid (Python's Plot)
 ####             [Not Readable] Report error (Expect error)
 #### User --> Ask for more data or raw data (Import y or n for data detail)
