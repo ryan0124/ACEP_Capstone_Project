@@ -98,12 +98,20 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 #### Program --> [Readable] Output data file  (Output CSV file with location and usage)
 ####	           [Not Readable/ Sensitive data] Report error
 
-### Component Specification:
+### ML Model Accuracies
+Linear regression model 1 R2_Score: 95.5%
+Linear regression model 1 R2_Score: 89.4%
+Multi-Ouput Model R2_Score: 91.9% 
 
-| Name | What it Does | Input | Output |
-|------|--------------|-------|--------|
-| Model prepared  | Takes input data | Time, load, location, and weather | Prediction of load in the future use case scenarios |
-| Interface| To show prediction and compare using statistical tools from the current usage | Current, voltage, Impedance, Capacitance,Reactants| Statistical values such as SD, mean and difference in the prediction and use |
+### Authors
 
+*Department of Chemical Engineering, University of Washington*
+* Yao-Yang Hseih 
+* Abhineet Nigam 
+* Hu-Kung Chen
+
+*Department of Electrical Engineering, University of Washington*
+* Boyuan Xie 
+* Laura Rackley
 
 -----
