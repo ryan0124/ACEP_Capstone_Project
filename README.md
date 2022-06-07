@@ -91,9 +91,9 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 
 -----
 ### ML Model Accuracies
-Linear regression model 1 R2_Score: 95.5%
-Linear regression model 1 R2_Score: 89.4%
-Multi-Ouput Model R2_Score: 91.9% 
+* Linear regression model 1 R2_Score: 95.5%
+* Linear regression model 1 R2_Score: 89.4%
+* Multi-Ouput Model R2_Score: 91.9% 
 
 -----
 ### Authors
