@@ -16,7 +16,6 @@ This project is about developing publicly accessible Alaska-based power systemmo
 *  Hyak NextGen Supercomputer
 
 ### Organization
-.
 ├── Capstone_Gnatt.xlsx
 
 ├── Data
