@@ -1,4 +1,4 @@
-[![Python 3.9](https://img.shields.io/badge/python-3.4+-orange.svg)](https://www.python.org/download/releases/3.9.0/)
+[![Python 3.9](https://img.shields.io/badge/python-3.9-orange.svg)](https://www.python.org/download/releases/3.9.0/)
 # Alaska Center Energy and Power Capstone: Synthetic Electrical Grid and Data Model
 ![image](https://user-images.githubusercontent.com/19913928/172478159-d85c14f7-3cda-490b-bc8d-3698920945e2.png)
 
