@@ -79,7 +79,7 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 ### User Stories:
 
 #### Tom is a data science student in college and he is proficient in understanding electrical grids and the usage of electricity. He wants to know where he can find and download different types of buildings data for his synthetic power system models. He can use our script to download different types of buildings for OSM. After downloading the data he needs, he can use our clustering to cluster buildings in certain area and then apply our ML models to get QMax,QMin that he wants.  
-#### Becky is a student researcher who is working on developing new grids for electricity transmission/distribution. She wants to know the usage patterns in Alaska. She wants an easy-to-understand interface that is publicly accessible.
+#### Becky is a student researcher who is working on developing new grids for electricity transmission/distribution. She wants to know the usage patterns in Alaska with changing weather patterns and trends. She can use our model to find predict energy generation patterns and usage statisctics. 
 
 ### Describing Use Case:
 
