@@ -99,7 +99,7 @@ We have one independent variable(X) and two dependents variables(Y1, Y2). In thi
 ### Authors
 
 *Department of Chemical Engineering, University of Washington*
-* Yao-Yang Hseih 
+* Yao-Yang Hsieh 
 * Abhineet Nigam 
 * Hu-Kung Chen
 
